@@ -193,3 +193,95 @@ footer {
 .btn:hover {
     background-color: #0056b3;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+
+.contact {
+    margin-top: 40px; /* Space above the contact form */
+}
+
+.contact .container {
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.thank-you {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.thank-you h2 {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input.form-control,
+textarea.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button.btn {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
